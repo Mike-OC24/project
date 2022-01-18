@@ -1,0 +1,59 @@
+%title {
+   color: #48555B;
+   font-weight: 700;
+}
+%text {
+   color: #48555B;
+   font-weight: 400;
+}
+%slogan-text {
+   position: relative;
+   font-weight: 800;
+   font-size: 24px;
+   line-height: 29px;
+   align-items: center;
+   letter-spacing: 0.1875px;
+   top: -73%;
+   left: 10%;
+}
+$footer-color: #171819;
+
+%footer-contact {
+   font-size: 11px;
+   line-height: 16px;
+   letter-spacing: 0.846154px;
+}
+%button {
+   background: #00A4E5;
+   font-weight: 700;
+   height: 40px;
+   width: 150px;
+   line-height: 40px;
+   font-size: 13px;
+   line-height: 15px;
+   text-align: center;
+   letter-spacing: 0.5px;
+   a:hover{
+      color: #141A20;
+   }
+} 
+%box-content {
+   border: 2px solid #E6E6E6;
+   width: 295px;
+   height: 330px;
+   padding: 38px 20px;
+   .box__title{
+      @extend %title;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.426667px;
+      margin: 25px 0px 13px;
+   }
+   .box__text{
+      @extend %text;
+      font-size: 13px;
+      line-height: 23px;
+      letter-spacing: 0.1875px;
+   }
+}
+

@@ -1,0 +1,99 @@
+.footer-blocks{
+   display: flex;
+   column-gap: 60px;
+   padding: 42px 0px 45px;
+   .footer-block__company{
+      width: 250px;
+   .company-title{
+      margin-bottom: 19px;
+      font-size: 11px;
+      font-weight: 400;
+      line-height: 13px;
+      letter-spacing: 0.846154px;
+      }
+   .company-text{
+      margin-top: 15px;
+      font-size: 11px;
+      font-weight: 400;
+      line-height: 19px;
+      letter-spacing: 0.85px;
+      }
+   }
+   .footer-block__links{
+      display: flex;
+      column-gap: 32px;
+      .links__item--title{
+         margin-bottom: 10px;
+      }
+      .links__item{
+         font-weight: 400;
+         font-size: 11px;
+         line-height: 25px;
+         letter-spacing: 0.846154px;
+      }
+      .links-list__two{
+         margin-top: 30px;
+      }
+      .links-list__three{
+         margin-top: 30px;
+      }
+   }
+   .footer-block__contact{
+      width: 130px;
+      .contact-title{
+         margin-bottom: 20px;
+         font-size: 11px;
+         font-weight: 400;
+         line-height: 13px;
+         letter-spacing: 0.846154px;
+      }
+      .contact-address{
+         @extend %footer-contact;
+      }
+      .phone{
+         @extend %footer-contact;
+         margin-top: 22px;
+      }
+      .mail{
+         @extend %footer-contact;
+         margin-top: 22px;
+      }
+   }
+   .footer-block__socials{
+      display: flex;
+      margin-top: 35px;
+      column-gap: 25px;
+   }
+}
+
+.footer-newsletter{
+   display: flex;
+   padding-top: 30px;
+   justify-content: center;
+}
+.footer-newsletter__text{
+   padding-top: 10px;
+   font-size: 22px;
+   line-height: 26px;
+   letter-spacing: 0.846154px;
+}
+input[type=submit]{
+  @extend %button;
+}
+input[type=email]{
+   padding-left: 16px;
+   height: 40px;
+   width: 250px;
+}
+.footer__copyright{
+   padding-top: 22px;
+   text-align: center;
+}
+.footer__copyright-text{
+   font-size: 11px;
+   line-height: 13px;
+   letter-spacing: 0.846154px;
+}
+.footer-newsletter__text{
+   margin-right: 70px;
+}
