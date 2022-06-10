@@ -1,0 +1,18 @@
+.main__navbar{
+   height: 65px;
+   border-bottom: 2px solid #E6E6E6;
+   margin-bottom: 58px;
+   .navbar__box{
+      display: flex;
+      justify-content: space-between;
+      padding-top: 25px;
+   }
+   .navbar__menu-list{
+      display: flex;
+      column-gap: 30px;
+   }
+}
+.navbar__link {
+   color: #48555B;
+   font-weight: 600;
+}

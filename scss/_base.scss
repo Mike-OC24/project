@@ -1,0 +1,46 @@
+body{
+   min-width: 1200px;
+   font-family: "Open Sans";
+   color: #FFFFFF;
+}
+a{
+   color: #FFFFFF;
+}
+a:hover{
+   transition: color 0.3s ease;  
+   color: #00A4E5;
+}
+.wrapper{
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+}
+.footer{
+   margin-top: auto;
+   background: #141A20;
+   .footer-top{
+      height: 100px;
+      background: $footer-color;
+   }
+   .footer-bottom{
+      height: 60px;
+      background: $footer-color;
+   }
+}
+.container{
+   max-width: 971px;
+   margin: 0px auto;
+   padding: 0px 15px; 
+}
+ .button__scroll{
+   position: fixed;
+   top: 12%;
+   left: 75%;
+   display: none;
+   @extend %button;
+   padding: 10px 15px;
+}
+.shown {
+   display: block;
+ }

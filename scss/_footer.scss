@@ -1,0 +1,110 @@
+.footer-blocks__inner{
+   display: flex;
+   column-gap: 60px;
+   padding: 42px 0px 45px;
+}
+
+.footer-blocks__company{
+   width: 250px;
+.company__title{
+   margin-bottom: 19px;
+   font-size: 11px;
+   font-weight: 400;
+   line-height: 13px;
+   letter-spacing: 0.846154px;
+   }
+.company__text{
+   margin-top: 15px;
+   font-size: 11px;
+   font-weight: 400;
+   line-height: 19px;
+   letter-spacing: 0.85px;
+   }
+}
+.footer-blocks__links{
+   display: flex;
+   column-gap: 32px;
+   .links__item--title{
+      margin-bottom: 10px;
+   }
+   .links__item{
+      font-weight: 400;
+      font-size: 11px;
+      line-height: 25px;
+      letter-spacing: 0.846154px;
+   }
+   .links-list__two{
+      margin-top: 30px;
+   }
+   .links-list__three{
+      margin-top: 30px;
+   }
+}
+.footer-blocks__contact{
+   width: 130px;
+   .contact__title{
+      margin-bottom: 20px;
+      font-size: 11px;
+      font-weight: 400;
+      line-height: 13px;
+      letter-spacing: 0.846154px;
+   }
+   .contact__address{
+      @extend %footer-contact;
+   }
+   .contact__phone{
+      @extend %footer-contact;
+      margin-top: 22px;
+   }
+   .contact__mail{
+      @extend %footer-contact;
+      margin-top: 22px;
+   }
+}
+.footer-blocks__socials{
+   display: flex;
+   margin-top: 35px;
+}
+.socials__logo:not(:last-child){
+   margin: 0px 25px 0px 0px;
+}
+
+.footer__newsletter{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   padding-top: 30px;
+}
+.footer__newsletter-form{
+   display: flex;
+   align-items: center;
+}
+.footer__newsletter-text{
+   font-size: 22px;
+   font-weight: 700;
+   line-height: 26px;
+   letter-spacing: 0.846154px;
+}
+
+.footer__newsletter-button{
+   @extend %button;
+   padding: 11px 48px;
+   color: #FFFFFF;
+}
+.footer__newsletter-input{
+   min-height: 40px;
+   min-width: 250px;
+   padding-left: 16px;
+}
+.footer__copyright{
+   padding-top: 22px;
+   text-align: center;
+}
+.footer__copyright-text{
+   font-size: 11px;
+   line-height: 13px;
+   letter-spacing: 0.846154px;
+}
+.footer-newsletter__text{
+   margin-right: 70px;
+}
